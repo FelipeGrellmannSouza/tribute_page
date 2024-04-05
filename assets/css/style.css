@@ -7,7 +7,7 @@ body {
 
 .container{
     display: flex;
-    width: 990px;
+    width: 700px;
     justify-content: center;
 }
 
@@ -78,6 +78,78 @@ nav a:hover {
     font-size: 30px;
 }
 
+
+#conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sobre { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sobre article{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000;
+    background-color: #e23d37;
+    margin-top: 50px;
+    border-radius: 30px;
+}
+
+.titulo{
+    font-size: 50px;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: #fff;
+}
+
+#sobre .titulo{
+    color: black;
+}
+
+.texto_sobre p {
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px;    
+}
+
+#discografia {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#dicografia .titulo{
+    color: #fff;
+}
+
+.discos {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.disco{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e23d37;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.disco img {
+    width: 220px;
+}
 
  
 
