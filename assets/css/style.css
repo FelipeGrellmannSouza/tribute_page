@@ -1,18 +1,23 @@
 body { 
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: rgb(10, 10, 10);
+    padding-bottom: 30px;
 }
 
-.container { 
+.container{
     display: flex;
     width: 990px;
-    align-items: center;
-    align-self: center;
+    justify-content: center;
+}
+
+header .container { 
     flex-direction: column;
     border-radius: 0px 0px 100px 100px;
     background-color: #e23d37;
     padding-bottom: 20px;
+    align-items: center;
+    align-self: center;
 }
 
 header {
@@ -44,5 +49,36 @@ nav a:hover {
     color: white;
     font-weight: bold;
 }
+
+#banner { 
+    display: flex;
+    justify-content: center;
+}
+
+#banner img {
+    width: 700px;
+}
+
+.polaroid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 30px;
+    border-radius: 30px;
+    background-color: #e23d37;
+    padding: 30px 30px 30px 30px;
+}
+
+.polaroid_desc {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-size: 30px;
+}
+
+
+ 
 
 
