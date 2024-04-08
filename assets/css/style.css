@@ -2,7 +2,6 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(10, 10, 10);
-    padding-bottom: 30px;
 }
 
 .container{
@@ -42,11 +41,11 @@ nav ul{
 
 nav a {
     text-decoration: none;
-    color: black ;
+    color: #000 ;
 }
 
 nav a:hover {
-    color: white;
+    color: #fff;
     font-weight: bold;
 }
 
@@ -56,14 +55,13 @@ nav a:hover {
 }
 
 #banner img {
-    width: 700px;
+    width: 640px;
 }
 
 .polaroid {
     display: flex;
     flex-direction: column;
     align-items: center;
-
     margin-top: 30px;
     border-radius: 30px;
     background-color: #e23d37;
@@ -74,7 +72,7 @@ nav a:hover {
     margin-top: 30px;
     display: flex;
     align-items: center;
-    color: #000;
+    color: #fff;
     font-size: 30px;
 }
 
@@ -95,22 +93,20 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #000;
+    color: #fff;
     background-color: #e23d37;
-    margin-top: 50px;
+    
     border-radius: 30px;
 }
 
 .titulo{
     font-size: 50px;
-    margin-top: 20px;
+    margin-top: 50px;
     text-decoration: underline;
     color: #fff;
 }
 
-#sobre .titulo{
-    color: black;
-}
+
 
 .texto_sobre p {
     font-size: 20px;
@@ -133,24 +129,81 @@ nav a:hover {
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
+    
+}
 
+.discos a {
+    text-decoration: none;
+    color: white;
 }
 
 
 .disco{ 
+    width: 330px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 320px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-color: #e23d37;
-    padding: 30px;
     border-radius: 20px;
     margin: 10px;
+    
 }
 
 .disco img {
-    width: 220px;
+    width: 250px;
 }
 
- 
+#ouvir { 
+    width: 680px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.spotify {
+    width: 680px;
+    margin-bottom: 50px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 130px;
+    background-color: #282828;
+    padding-bottom: 20px;
+}
+
+.linha { 
+    height: 2px;
+    width: 100%;
+    background-color: #999;
+}
+
+footer .container{ 
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_texto {
+    color: #fff;
+}
+
+.icons {
+    display: flex;
+    width: 230px;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.icons img { 
+    width: 50px;
+}
+
 
 
